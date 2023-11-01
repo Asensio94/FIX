@@ -1,0 +1,40 @@
+Pricing Connection:
+IP/DNS: pxmdemouk.primexm.com
+Port: 31663
+LoginUsername: primexm_customer_test_3_q
+LoginPassword: Nd8yMPjah4S4yjNtQV
+SenderCompID: Q009
+TargetCompID: XCD17
+SSL: N
+ResetOnLogon: Y
+Instrument Format: <to_be_added>
+Session: FRI17:05:30-FRI17:05:00 (America/New_York)
+
+Trading Connection:
+IP/DNS: pxmdemouk.primexm.com
+Port: 31664
+LoginUsername: primexm_customer_test_3_t
+LoginPassword: AsRs2vtP6DYwcNe4b9
+SenderCompID: T009
+TargetCompID: XCD17
+SSL: Y
+ResetOnLogon: N
+Session: FRI17:05:30-FRI17:05:00 (America/New_York)
+
+Please note that this connection has the following trading accounts (tag #1 values): fixapi
+
+Notes:
+
+Please note that the IP of the system may change from time to time. Therefore, it is important that the DNS provided is used instead of the IP,
+to ensure that connectivity can be established at all times, transparent of any IP changes.
+
+The DNS will always point to an IP address from the ranges 176.124.191.16/28 or 176.124.191.32/28. Therefore, if you are allowing out-going 
+connections based on IP filters, please make sure that the specified ranges are allowed, and not just a single IP.
+
+In case the specified main DNS (pxmdemouk.primexm.com) is not available, the following backup DNS can be used instead: pxmdemouk.primexm.net
+
+Connection String: ZGVtb190cmFkZXNsaWRlX3hjb3JlX3VrfFEwMDl8WENEMTc=
+
+Notes:
+The above generated Connection String contains the credentials and connection details needed to connect from a client XCore via this FIX Connector.
+The Connection String is required on the client XCore to add the liquidity provider entry that connects to the provider XCore.

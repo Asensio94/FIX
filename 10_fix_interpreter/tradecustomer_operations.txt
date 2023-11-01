@@ -1,0 +1,32 @@
+Pricing Connection:
+IP/DNS: tradeslideuk.primexm.com
+Port: 26875
+LoginUsername: primexm_customer_operations_test_q
+LoginPassword: qyK2YByQorUh
+SenderCompID: Q031
+TargetCompID: XC116
+SSL: N
+ResetOnLogon: Y
+Instrument Format: b/q
+Session: FRI17:05:30-FRI17:05:00 (America/New_York)
+
+Trading Connection:
+IP/DNS: tradeslideuk.primexm.com
+Port: 26876
+LoginUsername: primexm_customer_operations_test_t
+LoginPassword: GFpU6urddNJ8
+SenderCompID: T031
+TargetCompID: XC116
+SSL: Y
+ResetOnLogon: N
+Session: FRI17:05:30-FRI17:05:00 (America/New_York)
+
+Notes:
+
+Please note that the IP of the system may change from time to time. Therefore, it is important that the DNS provided is used instead of the IP,
+to ensure that connectivity can be established at all times, transparent of any IP changes.
+
+The DNS will always point to an IP address from the ranges 176.124.191.16/28 or 176.124.191.32/28. Therefore, if you are allowing out-going 
+connections based on IP filters, please make sure that the specified ranges are allowed, and not just a single IP.
+
+In case the specified main DNS (tradeslideuk.primexm.com) is not available, the following backup DNS can be used instead: tradeslideuk.primexm.net
